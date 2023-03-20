@@ -3,4 +3,4 @@ x = torch.rand(5, 3)
 print(x)
 
 print("=============>")
-print("Is cuda enable? {0}".format(torch.cuda.is_available()))
+print("CUDA enabled {0}".format(torch.cuda.is_available()))
